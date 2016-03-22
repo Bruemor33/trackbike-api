@@ -1,0 +1,55 @@
+{
+   "frames": [
+
+      {
+         "id":"01",
+         "brand": "Cinelli",
+         "material": "7005-T6 aluminum",
+         "title": "MASH Histogram",
+         "size": [56, 54, 52, 50]
+      },
+
+      {
+         "id":"02",
+         "brand": "State Bicycle Co.",
+         "material": "6061 Aluminum",
+         "title": "Black Label",
+         "size": [56, 54, 52, 50]
+      },
+
+      {
+         "id":"03",
+         "brand": "Cinelli",
+         "material": "4130 TIG-welded Chromoly Steel",
+         "title": "MASH Work Frame",
+         "size": [56, 54, 52, 50]
+      }
+
+   ],
+
+   "stems": [
+
+     {
+       "id": "01",
+       "brand": "Cinelli",
+       "material": "6061 T6 Aluminium",
+       "title": "Cinelli Pista Stem"
+     },
+
+     {
+       "id": "02",
+       "brand": "Soma",
+       "material": "6061 aluminum",
+       "title": "Soma Shotwell stem"
+     },
+
+     {
+       "id": "03",
+       "brand": "Thomson",
+       "material": "7000-series aluminum",
+       "title": "Thomson X2 Road Stem",
+
+     }
+
+   ]
+}
