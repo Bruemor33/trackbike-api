@@ -1,0 +1,77 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# Track Bikes
+
+Tack Bikes is a simple API to allow customers to view all the parts 
+necessary to build a track bike. This will also include whether or not 
+certain parts are compatable to others.
+
+## Frames Collection [/frames]
+
+### List All Frames [GET]
+
++ Response 200 (application/json)
+
+        {
+            "count": 3,
+            "frames": [
+
+              {
+                 "id":"01",
+                 "brand": "Cinelli",
+                 "material": "7005-T6 aluminum",
+                 "title": "MASH Histogram",
+              },
+
+              {
+                 "id":"02",
+                 "brand": "State Bicycle Co.",
+                 "material": "6061 Aluminum",
+                 "title": "Black Label",
+              },
+
+              {
+                 "id":"03",
+                 "brand": "Cinelli",
+                 "material": "4130 TIG-welded Chromoly Steel",
+                 "title": "MASH Work Frame",
+              }
+
+            ]
+        }
+
+## Stems Collection [/stems]
+
+You may create your own question using this action. It takes a JSON
+object containing a question and a collection of answers in the
+form of choices.
+
+### List All Stems [GET]
+
++ Response 200 (application/json)
+
+        "stems": [
+
+             {
+               "id": "01",
+               "brand": "Cinelli",
+               "material": "6061 T6 Aluminium",
+               "title": "Cinelli Pista Stem"
+             },
+        
+             {
+               "id": "02",
+               "brand": "Soma",
+               "material": "6061 aluminum",
+               "title": "Soma Shotwell stem"
+             },
+        
+             {
+               "id": "03",
+               "brand": "Thomson",
+               "material": "7000-series aluminum",
+               "title": "Thomson X2 Road Stem"
+             }
+    
+        ]
